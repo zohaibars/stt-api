@@ -1,0 +1,29 @@
+Dataset/
+# Ignore Python cache directories
+__pycache__/
+**/myenv/
+Split Dataset/
+finetune/
+5hour/
+Tensor_Model/
+*.mp4
+*.wav
+*.log
+Dataset Auguest/
+New_Model/
+22_hour/
+chunks/
+*.zip
+16 hour/
+uploads/
+formedia_upload/
+nimar_upload/
+nohup.out
+43_hour/
+infer.py
+finetune.py
+run.bat
+run.sh
+formedia_uploads/
+nimar_uploads/
+65_hour/
