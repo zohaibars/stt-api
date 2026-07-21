@@ -12,12 +12,10 @@ Follow the steps below to get started with this project:
 * Cuda 11.2
 * Torch 2.4.1+cu121
 ### Installation
-1. Clone the repository
-```
-https://github.com/AI-TEAM-R-D-Models/stt-api
+
 ```
 
-2. Install the requirements
+1. Install the requirements
 ```
 python3 -m venv myenv
 
@@ -28,7 +26,7 @@ pip install -r requirements.txt
 
 ```
 
-3. Prepare Dataset
+2. Prepare Dataset
 ```
     Dataset/
     │
@@ -47,7 +45,7 @@ pip install -r requirements.txt
     │   │   └── ...
 
 ```
-4. convert 16000hz sampling rate
+3. convert 16000hz sampling rate
 ```
 
 ```
@@ -57,20 +55,20 @@ python3 convert_sampling_rate.py
 ```
 
 ```
-5. Generate audio_paths and text file
+4. Generate audio_paths and text file
 ```
 python GenerateDataPaths.py
 ```
-6. Split Dataset
+5. Split Dataset
 ```
 python dataset_split.py 
 ```
-7. FineTune
+6. FineTune
 ```
 python train.py
 
 ```
-8. Extract Model
+7. Extract Model
 ```
 python extract_model.py
 
